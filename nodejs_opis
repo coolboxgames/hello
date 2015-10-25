@@ -1,0 +1,14 @@
+-Instaliram prvo nodejs sa :https://nodejs.org/en/ . Skine se i instalira na racunaru preko .msi fajla
+-udjemo u cmd i otvorimo novi folder gdje hocemo projekat da otvorimo
+-postavimo se u taj folder i kucamo komandu: npm init
+-dobijemo neki ispis o koristenju utility-ja , i onda sa enter , ostale opcije se pojave koje prihvatamo po 
+defaultu
+-Na kraju kad nas upita utility , Is this ok? i prihvatimo to , u tom folderu, konkretno, se formira "package.json"
+- sada uradimo komandu :
+npm i electron-prebuilt --save-dev
+koja uradi gomile stvari ukljucujuci instalaciju elektrona , node install.js ... na komandnom prozoru.
+-Realno , u folderu se generise novi folder [node_modules] sa dva podfoldera [.bin] i [electron-prebuilt] i 
+sadrzajem u njima ...
+-sada udjemo u ATOM (editor koji ima svoj windows installer) i tu izaberemo Add Project Folder i izaberemo
+nas folder gdje je uradjeno prethodno sa "package.json"
+
